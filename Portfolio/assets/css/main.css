@@ -3384,7 +3384,8 @@ body.is-preload #header.alt {
     background-size: cover;
     border-bottom: 0 !important;
     cursor: default;
-    height: 60vh;
+    /*height: 60vh;*/
+    height: 80vh;
     margin-bottom: -3.25em;
     max-height: 32em;
     min-height: 22em;
@@ -4043,9 +4044,7 @@ body.is-menu-visible #menu .inner {
     border-radius: 5px 5px 0 0;
     width: 100%;
 }
-#projects article:hover {
 
-}
 
 .centered {
     position: absolute;
@@ -4053,6 +4052,10 @@ body.is-menu-visible #menu .inner {
     left: 50%;
     transform: translate(-50%, -50%);
     visibility:hidden;
+}
+
+.image:hover div{
+    visibility: visible;
 }
 .image img {
     border-radius: 5px;
@@ -4220,6 +4223,7 @@ textarea:focus {
     }
     .main-contact ul {
         padding: 0;
+        /*margin: 0 0 2em 0;*/
     }
     /*========================================BIO======================================================*/
     /*========================================Education======================================================*/
