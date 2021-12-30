@@ -4053,7 +4053,9 @@ body.is-menu-visible #menu .inner {
     transform: translate(-50%, -50%);
     visibility:hidden;
 }
-
+.image {
+    margin-left:auto;
+}
 .image:hover div{
     visibility: visible;
 }
@@ -4082,11 +4084,6 @@ body.is-menu-visible #menu .inner {
     /*opacity:1;*/
     font-weight:bold;
 }
-.centered:hover {
-    opacity: 1;
-    background:white;
-}
-
 #projects article {
     padding: 1.75em 1.75em 2em 1.75em;
     background-color: #353849;
@@ -4249,9 +4246,12 @@ textarea:focus {
 }
 
 @media screen and (min-width: 1440px) {
+    :root {
+        font-size: 1.5em;
+
+    }
     /*========================================BIO======================================================*/
     .content, .main-contact {
-        font-size: 1.75em;
     }
     .main-contact ul{
         padding-left: 0;
