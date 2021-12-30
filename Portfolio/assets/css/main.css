@@ -4064,16 +4064,29 @@ body.is-menu-visible #menu .inner {
 .image:hover {
     visibility: visible !important;
 }
-.image img:hover {
-    opacity: 0.75;
+.image img:hover, .image:hover {
+    opacity: 0.5;
+    background: white;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
     visibility: visible;
+    color: black;
     /*box-shadow: 10px 10px 5px #888888;*/
 }
+
+.centered {
+    color: #009dff;
+    /*opacity:1;*/
+    font-weight:bold;
+}
+.centered:hover {
+    opacity: 1;
+    background:white;
+}
+
 #projects article {
     padding: 1.75em 1.75em 2em 1.75em;
     background-color: #353849;
@@ -4257,4 +4270,8 @@ textarea:focus {
 
 .column {
     column-count:2;
+}
+
+#grocery {
+    width:400px;
 }
